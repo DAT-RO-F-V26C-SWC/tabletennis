@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tabletennisApp", "tabletennisApp\tabletennisApp.csproj", "{A80D875C-7A6A-4222-AA2B-4E48717E520E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tabletennisLib", "tabletennisLib\tabletennisLib.csproj", "{A70A2F92-4D0D-4F5F-B0E3-EC2720B17A42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A80D875C-7A6A-4222-AA2B-4E48717E520E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80D875C-7A6A-4222-AA2B-4E48717E520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80D875C-7A6A-4222-AA2B-4E48717E520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80D875C-7A6A-4222-AA2B-4E48717E520E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70A2F92-4D0D-4F5F-B0E3-EC2720B17A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70A2F92-4D0D-4F5F-B0E3-EC2720B17A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70A2F92-4D0D-4F5F-B0E3-EC2720B17A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70A2F92-4D0D-4F5F-B0E3-EC2720B17A42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {010331DD-59D8-42BA-A2CC-9FC41F78F33B}
+	EndGlobalSection
+EndGlobal

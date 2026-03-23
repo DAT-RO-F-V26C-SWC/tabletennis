@@ -1,0 +1,45 @@
+﻿@page
+@model TabletennisGUI.Pages.member.CreateModel
+@{
+}
+<h1>Opret nyt medlem</h1>
+<form method="post">
+    <table class="col-6">
+        <tr>
+            <td>
+            <label>Medlems Nummer</label>
+            </td>
+            <td>
+                <input type="number" asp-for="@Model.MemberNo" />
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label>Medlems Navn</label>
+            </td>
+            <td>
+                <input type="text" asp-for="@Model.Name" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Medlems Mobil</label>
+            </td>
+            <td>
+                <input type="text" asp-for="@Model.Phone" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Medlems Fødselsår</label>
+            </td>
+            <td>
+                <input type="number" asp-for="@Model.YearOfBirth" />
+            </td>
+        </tr>
+    </table>
+    <input type="submit" class="btn btn-success" value="Opret Nyt Medlem" asp-page-handler="OK"/>
+    <input type="submit" class="btn btn-danger" value="Fortryd" asp-page-handler="Cancel" />
+
+</form>
